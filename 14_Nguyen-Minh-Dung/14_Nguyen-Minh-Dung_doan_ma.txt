@@ -1,0 +1,515 @@
+
+Admin@Dung MINGW64 /d
+$ git clone https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap
+Cloning into '14_Nguyen-Minh-Dung_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Admin@Dung MINGW64 /d
+$ cd 14_Nguyen-Minh-Dung_bai_tap
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git add .
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git commit -m "README.md"
+[main 152e70f] README.md
+ 1 file changed, 18 insertions(+), 1 deletion(-)
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 634 bytes | 634.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap
+   c2e5987..152e70f  main -> main
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git branch branch_1
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_1)
+$ echo Lorem ipsum dolor sit amet, consectetur adipiscing elit. > text_branch_1.txt
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_1)
+$ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_1)
+$ git commit -m"branch_1"
+[branch_1 b909e95] branch_1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 337 bytes | 168.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap
+ * [new branch]      branch_1 -> branch_1
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git branch branch_2
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git checkout branch_2
+Switched to branch 'branch_2'
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_2)
+$ echo Praesent ullamcorper orci eu erat placerat sodales. > text_branch_2.txt
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_2)
+$ git add text_branch_2.txt
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_2)
+$ git commit -m"branch_2"
+[branch_2 ce166f2] branch_2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 328 bytes | 164.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap
+ * [new branch]      branch_2 -> branch_2
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git branch branch_3
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git checkout branch_3
+Switched to branch 'branch_3'
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_3)
+$ echo Integer sit amet nisi aliquam, tempor libero quis, cursus erat. > text_branch_3.txt
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_3)
+$ git add text_branch_3.txt
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_3)
+$ git commit -m"branch3"
+[branch_3 230bf83] branch3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 338 bytes | 169.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap
+ * [new branch]      branch_3 -> branch_3
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git branch branch_4
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git checkout branch_4
+Switched to branch 'branch_4'
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_4)
+$ echo Cras ac mi nec nisi porta ultrices sed non ante. > text_branch_4.txt
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_4)
+$ git add text_branch_4.txt
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_4)
+$ git commit -m "branch4"
+[branch_4 46a9da5] branch4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 325 bytes | 162.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap
+ * [new branch]      branch_4 -> branch_4
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git branch -d branch_4
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was 46a9da5).
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git branch --list
+  branch_1
+  branch_2
+  branch_3
+* main
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git pull
+Already up to date.
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ mkdir main_folder
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ cd main_folder
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap/main_folder (main)
+$ touch main_txt_1.txt main_txt_2.txt main_txt_3.txt
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap/main_folder (main)
+$ git add .
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap/main_folder (main)
+$ git commit -m"main_txt"
+[main 0ea6a8f] main_txt
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap/main_folder (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 337 bytes | 168.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap
+   152e70f..0ea6a8f  main -> main
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap/main_folder (main)
+$ git pull
+Already up to date.
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap/main_folder (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap/main_folder (branch_1)
+$ git branch branch_5
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap/main_folder (branch_1)
+$ git checkout branch_5
+Switched to branch 'branch_5'
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap/main_folder (branch_5)
+$ cat <<EOF > text_branch_1.txt
+Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non
+metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie
+accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros.
+Nullam malesuada vel dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae,
+porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class
+aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra.
+Phasellus dignissim mollis leo, vitae tristique enim.
+EOF
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap/main_folder (branch_5)
+$ git add text_branch_1.txt
+warning: in the working copy of 'main_folder/text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap/main_folder (branch_5)
+$ git commit -m "Chỉnh sửa nội dung text_branch_1.txt trong branch_5"
+[branch_5 96e97c4] Chỉnh sửa nội dung text_branch_1.txt trong branch_5
+ 1 file changed, 9 insertions(+)
+ create mode 100644 main_folder/text_branch_1.txt
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap/main_folder (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 801 bytes | 400.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap/pull/new/branch_5
+remote:
+To https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap
+ * [new branch]      branch_5 -> branch_5
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap/main_folder (branch_5)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap/main_folder (branch_1)
+$ cd ..
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_1)
+$ git pull origin branch_1
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (1/1), 944 bytes | 157.00 KiB/s, done.
+From https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap
+ * branch            branch_1   -> FETCH_HEAD
+   b909e95..c53826b  branch_1   -> origin/branch_1
+Updating b909e95..c53826b
+Fast-forward
+ main_folder/text_branch_1.txt | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+ create mode 100644 main_folder/text_branch_1.txt
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_1)
+$ git checkout branch_5
+Switched to branch 'branch_5'
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_5)
+$  cat <<EOF > text_branch_1.txt
+Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non
+metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie
+accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros.
+Nullam malesuada vel dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae,
+porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class
+aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra.
+Phasellus dignissim mollis leo, vitae tristique enim.
+EOF
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_5)
+$ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_5)
+$ git commit -m "branch_1 sang branch_5"
+[branch_5 553c90e] branch_1 sang branch_5
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 637 bytes | 637.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap
+   96e97c4..553c90e  branch_5 -> branch_5
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_5)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_1)
+$ git pull origin branch_1
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (1/1), 901 bytes | 64.00 KiB/s, done.
+From https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap
+ * branch            branch_1   -> FETCH_HEAD
+   c53826b..2c1afd4  branch_1   -> origin/branch_1
+Updating c53826b..2c1afd4
+Fast-forward
+ text_branch_1.txt | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_1)
+$ cat text_branch_1.txt
+Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non
+metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie
+accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros.
+Nullam malesuada vel dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae,
+porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class
+aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra.
+Phasellus dignissim mollis leo, vitae tristique enim.
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_1)
+$ git branch -D branch_5
+Deleted branch branch_5 (was 553c90e).
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git pull origin main
+remote: Enumerating objects: 16, done.
+remote: Counting objects: 100% (16/16), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 9 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (9/9), 3.79 KiB | 71.00 KiB/s, done.
+From https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap
+ * branch            main       -> FETCH_HEAD
+   0ea6a8f..5ec723b  main       -> origin/main
+Updating 0ea6a8f..5ec723b
+Fast-forward
+ main_folder/text_branch_1.txt | 9 +++++++++
+ text_branch_1.txt             | 9 +++++++++
+ text_branch_2.txt             | 1 +
+ text_branch_3.txt             | 1 +
+ text_branch_4.txt             | 1 +
+ 5 files changed, 21 insertions(+)
+ create mode 100644 main_folder/text_branch_1.txt
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ ls
+README.md     text_branch_1.txt  text_branch_3.txt
+main_folder/  text_branch_2.txt  text_branch_4.txt
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+* main
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git branch -d branch_2
+git branch -d branch_3
+git branch -d branch_4
+Deleted branch branch_2 (was ce166f2).
+Deleted branch branch_3 (was 230bf83).
+error: branch 'branch_4' not found
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git push origin --delete branch_2
+git push origin --delete branch_3
+git push origin --delete branch_4
+To https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap
+ - [deleted]         branch_2
+To https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap
+ - [deleted]         branch_3
+To https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap
+ - [deleted]         branch_4
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git branch -a
+  branch_1
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/branch_1
+  remotes/origin/branch_5
+  remotes/origin/main
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_1)
+$ git merge main
+Updating 2c1afd4..5ec723b
+Fast-forward
+ main_folder/main_txt_1.txt | 0
+ main_folder/main_txt_2.txt | 0
+ main_folder/main_txt_3.txt | 0
+ text_branch_2.txt          | 1 +
+ text_branch_3.txt          | 1 +
+ text_branch_4.txt          | 1 +
+ 6 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_1)
+$ git push origin branch_1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Minhdung-21/14_Nguyen-Minh-Dung_bai_tap
+   2c1afd4..5ec723b  branch_1 -> branch_1
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_1)
+$ git branch -a
+* branch_1
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/branch_1
+  remotes/origin/branch_5
+  remotes/origin/main
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ echo > 14_Nguyen-Minh-Dung_doan_ma.txt
+
+Admin@Dung MINGW64 /d/14_Nguyen-Minh-Dung_bai_tap (main)
+$ ls
+14_Nguyen-Minh-Dung_doan_ma.txt  text_branch_1.txt  text_branch_4.txt
+README.md                        text_branch_2.txt
+main_folder/                     text_branch_3.txt
+
