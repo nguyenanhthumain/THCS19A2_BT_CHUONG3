@@ -1,0 +1,356 @@
+29_PHAM_THANH_LUAN_doan_ma
+Admin@Admin-PC MINGW64 ~
+$ cd ~/Desktop
+
+Admin@Admin-PC MINGW64 ~/Desktop
+$ git clone https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap.git
+Cloning into '29_Pham_Thanh_Luan_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Admin@Admin-PC MINGW64 ~/Desktop
+$ git init 29_Pham_Thanh_Luan_bai_tap
+Reinitialized existing Git repository in C:/Users/Admin/Desktop/29_Pham_Thanh_Luan_bai_tap/.git/
+
+Admin@Admin-PC MINGW64 ~/Desktop
+$ cd 29_Pham_Thanh_Luan_bai_tap
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (main)
+$ notepad README.md
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (main)
+$ git add README.md
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (main)
+$ git add .
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (main)
+$ git commit -m"bai2"
+[main b9af161] bai2
+ 1 file changed, 20 insertions(+), 1 deletion(-)
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 644 bytes | 644.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap.git
+   0ddd1f7..b9af161  main -> main
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_1)
+$ git add text_branch_1.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_1)
+$ git commit -m"branch1"
+[branch_1 9fed26a] branch1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 334 bytes | 334.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap.git
+ * [new branch]      branch_1 -> branch_1
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_1)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_2)
+$ git add text_branch_2.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_2)
+$ git commit -m"branch2"
+[branch_2 b10a474] branch2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 352 bytes | 352.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap.git
+ * [new branch]      branch_2 -> branch_2
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_2)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_3)
+$ git add text_branch_3.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_3)
+$ git commit -m"branch3"
+[branch_3 816fe90] branch3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 329 bytes | 329.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap.git
+ * [new branch]      branch_3 -> branch_3
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_3)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_4)
+$ git add text_branch_4.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_4)
+$ git commit -m"branch4"
+[branch_4 889208c] branch4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 318 bytes | 318.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap.git
+ * [new branch]      branch_4 -> branch_4
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was 889208c).
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (main)
+$ git branch -l
+  branch_1
+  branch_2
+  branch_3
+* main
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (main)
+$ git branch -r
+  origin/HEAD -> origin/main
+  origin/branch_1
+  origin/branch_2
+  origin/branch_3
+  origin/branch_4
+  origin/main
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (main)
+$ git pull
+Already up to date.
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap (main)
+$ mkdir main_folder
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ echo "main1" > main_txt_1.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git add main_txt_1.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ echo "main2" > main_txt_2.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git add main_txt_2.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ echo "main3" > main_txt_3.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git add main_txt_3.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git commit -m"hi"
+[main cc87076] hi
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 409 bytes | 204.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap.git
+   b9af161..cc87076  main -> main
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git pull origin main
+From https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (branch_5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non
+metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie
+accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros.
+Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae,
+porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class
+aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra.
+Phasellus dignissim mollis leo, vitae tristique enim." > text_branch_1.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (branch_5)
+$ git add text_branch_1.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (branch_5)
+$ git commit -m"branch5"
+[branch_5 1dd4350] branch5
+ 1 file changed, 9 insertions(+)
+ create mode 100644 main_folder/text_branch_1.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 756 bytes | 756.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap/pull/new/branch_5
+remote:
+To https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap.git
+ * [new branch]      branch_5 -> branch_5
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git branch -D branch_5
+Deleted branch branch_5 (was 1dd4350).
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git push origin --delete branch_5
+To https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap.git
+ - [deleted]         branch_5
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git branch -D branch_2
+Deleted branch branch_2 (was b10a474).
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git push origin --delete branch_2
+To https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap.git
+ - [deleted]         branch_2
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git branch -D branch_3
+Deleted branch branch_3 (was 816fe90).
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git push origin --delete branch_3
+To https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap.git
+ - [deleted]         branch_3
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git branch -D branch_4
+error: branch 'branch_4' not found
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git checkout branch_4
+branch 'branch_4' set up to track 'origin/branch_4'.
+Switched to a new branch 'branch_4'
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git branch -d branch_4
+warning: deleting branch 'branch_4' that has been merged to
+         'refs/remotes/origin/branch_4', but not yet merged to HEAD
+Deleted branch branch_4 (was 889208c).
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git push origin --delete branch_4
+To https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap.git
+ - [deleted]         branch_4
+
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git pull origin main
+From https://github.com/ThanhLuan-gif/29_Pham_Thanh_Luan_bai_tap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+i
+Admin@Admin-PC MINGW64 ~/Desktop/29_Pham_Thanh_Luan_bai_tap/main_folder (main)
+$ git push origin branch_1
+Everything up-to-date
+
+
