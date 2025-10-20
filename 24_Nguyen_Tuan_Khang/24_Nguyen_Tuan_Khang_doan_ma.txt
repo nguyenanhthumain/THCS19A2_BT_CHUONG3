@@ -1,0 +1,767 @@
+Admin@Admin MINGW64 ~
+$ cd desktop
+
+Admin@Admin MINGW64 ~/desktop
+$ git clone https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap.git
+Cloning into '24_Nguyen_Tuan_Khang_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Admin@Admin MINGW64 ~/desktop
+$ cd 24_Nguyen_Tuan_Khang_bai_tap
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ explorer .
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git add README.md
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git commit -m "Chinh sua README.md theo bai 2"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Admin@Admin.(none)')
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git config --global user.name "Nguyen Tuan Khang"
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git config --global user.email "tuankhang3120@gmail.com"
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git commit -m "Chinh sua README.md theo bai 2"
+[main 34e70c4] Chinh sua README.md theo bai 2
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 647 bytes | 647.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap.git
+   581bf23..34e70c4  main -> main
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git push origin main
+Everything up-to-date
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git push origin main
+Everything up-to-date
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ pwd
+/c/Users/Admin/desktop/24_Nguyen_Tuan_Khang_bai_tap
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_1)
+$ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_1)
+$ git commit -m "Tao file text_branch_1.txt tren branch_1"
+[branch_1 51b3906] Tao file text_branch_1.txt tren branch_1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 369 bytes | 369.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap.git
+ * [new branch]      branch_1 -> branch_1
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_2)
+$ git add text_branch_2.txt
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_2)
+$ git commit -m "Tao file text_branch_2.txt tren branch_2"
+[branch_2 8b1c1b6] Tao file text_branch_2.txt tren branch_2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_2)
+$ git push origin branch_3
+error: src refspec branch_3 does not match any
+error: failed to push some refs to 'https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap.git'
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 363 bytes | 363.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap.git
+ * [new branch]      branch_2 -> branch_2
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_3)
+$ git add text_branch_3.txt
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_3)
+$ git commit -m "Tao file text_branch_3.txt tren branche 3"
+[branch_3 f209c11] Tao file text_branch_3.txt tren branche 3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 374 bytes | 374.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap.git
+ * [new branch]      branch_3 -> branch_3
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git check out -b branch_4
+git: 'check' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ git commit -m "Tao file text_branch_4.txt tren branche 4"
+On branch branch_4
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        text_branch_4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ gidd add text_branch_4.txt
+bash: gidd: command not found
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ git checkout -b branch_4
+fatal: a branch named 'branch_4' already exists
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ git commit -m "Tao file text_branch_4.txt tren branche 4"
+On branch branch_4
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        text_branch_4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ gidd add text_branch_4.txt
+bash: gidd: command not found
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ git push origin branch_4
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap.git
+ * [new branch]      branch_4 -> branch_4
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ git check out main
+git: 'check' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git checkout -b branch_4
+fatal: a branch named 'branch_4' already exists
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_5)
+$ git checkout -b branch_4
+fatal: a branch named 'branch_4' already exists
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_5)
+$ git checkout -b branch_4
+fatal: a branch named 'branch_4' already exists
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_5)
+$ git checkout -b branch_4
+fatal: a branch named 'branch_4' already exists
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git checkout -b branch_4
+fatal: a branch named 'branch_4' already exists
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git checkout -b branch_4
+fatal: a branch named 'branch_4' already exists
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git checkout -b branch_4
+fatal: a branch named 'branch_4' already exists
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git checkout -b branch_4
+fatal: a branch named 'branch_4' already exists
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git branch -d branch_4
+Deleted branch branch_4 (was 34e70c4).
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ git add text_branch_4.txt
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ git commit-m "Tao file text_branch_4.txt tren branch_4"
+git: 'commit-m' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit-tree
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ git commit -m "Tao file text_branch_4.txt tren branch_4"
+[branch_4 37838e8] Tao file text_branch_4.txt tren branch_4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 362 bytes | 362.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap.git
+ * [new branch]      branch_4 -> branch_4
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ git branch -d branch_4
+error: cannot delete branch 'branch_4' used by worktree at 'C:/Users/Admin/Desktop/24_Nguyen_Tuan_Khang_bai_tap'
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ git branch -D branch_4
+error: cannot delete branch 'branch_4' used by worktree at 'C:/Users/Admin/Desktop/24_Nguyen_Tuan_Khang_bai_tap'
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was 37838e8).
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git push origin --delete branch_4
+To https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap.git
+ - [deleted]         branch_4
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+  branch_5
+Merge branch 'main' of https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap into branch_1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Merge branch 'main' of https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap into branch_2
+# Please enter a commit message to explain why this merge is necessary,
+Merge branch 'main' of https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap into branch_2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Merge branch 'main' of https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap into branch_3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 1 +
+ main_folder/main_txt_3.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_3)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_3)
+$ git add .
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_3)
+$ git commit -m "Merge cap nhat tu main vao branch_3"
+On branch branch_3
+nothing to commit, working tree clean
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 414 bytes | 414.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap.git
+   f209c11..dc58218  branch_3 -> branch_3
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_3)
+$ git checkout branch_4
+error: pathspec 'branch_4' did not match any file(s) known to git
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Merge made by the 'ort' strategy.
+ text_branch_2.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 314 bytes | 314.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap.git
+   ec5590c..c5e7c36  main -> main
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git branch -a
+  branch_1
+  branch_2
+  branch_3
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/branch_1
+  remotes/origin/branch_2
+  remotes/origin/branch_3
+  remotes/origin/branch_5
+  remotes/origin/main
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git branch -d branch_2
+Deleted branch branch_2 (was 9d2b473).
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git branch -d branch_3
+error: the branch 'branch_3' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_3'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git branch -D branch_3
+Deleted branch branch_3 (was dc58218).
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git branch -D branch_4
+error: branch 'branch_4' not found
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git push origin --delete branch_2
+To https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap.git
+ - [deleted]         branch_2
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git push origin --delete branch_3
+To https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap.git
+ - [deleted]         branch_3
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git push origin --delete branch_4
+error: unable to delete 'branch_4': remote ref does not exist
+error: failed to push some refs to 'https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap.git'
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_1)
+$ git merge main
+Updating 8b5f33f..c5e7c36
+Fast-forward
+ text_branch_2.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_1)
+$ git push origin branch_1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ntkhang25174600119-star/24_Nguyen_Tuan_Khang_bai_tap.git
+   8b5f33f..c5e7c36  branch_1 -> branch_1
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_1)
+$ touch 24_Nguyen_Tuan_Khang_doan_ma.txt
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_1)
+$ git add 24_Nguyen_Tuan_Khang_doan_ma.txt
+g
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_1)
+$ git commit -m "Them file tong hop lenh git tu bai 1 den bai 9"
+[branch_1 2579e9b] Them file tong hop lenh git tu bai 1 den bai 9
+ 1 file changed, 873 insertions(+)
+ create mode 100644 24_Nguyen_Tuan_Khang_doan_ma.txt
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_1)
+$ git push origin main
+Everything up-to-date
+
+Admin@Admin MINGW64 ~/desktop/24_Nguyen_Tuan_Khang_bai_tap (branch_1)
+$ git clone https://github.com/ntkhang25174600119-star/THCS19A2_BT_CHUONG3.git
+Cloning into 'THCS19A2_BT_CHUONG3'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
