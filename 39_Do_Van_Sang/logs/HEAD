@@ -1,0 +1,30 @@
+0000000000000000000000000000000000000000 6107480ab2145c7c7956af7cde7e6ad0f7f6e3b5 Xeko <sangdo2k12@gmail.com> 1760965463 +0700	clone: from https://github.com/dvsang25174600112-xeko/39_Do_Van_Sang_bai_tap.git
+6107480ab2145c7c7956af7cde7e6ad0f7f6e3b5 97a0dbb5a6a9e4d58d1bc16948bbee301871835c Xeko <sangdo2k12@gmail.com> 1760965978 +0700	commit: Cập nhật README.md
+97a0dbb5a6a9e4d58d1bc16948bbee301871835c 97a0dbb5a6a9e4d58d1bc16948bbee301871835c Xeko <sangdo2k12@gmail.com> 1760966024 +0700	checkout: moving from main to branch_1
+97a0dbb5a6a9e4d58d1bc16948bbee301871835c 8cf443cbe4ea50f8da20e68545a6e0a16aee22e1 Xeko <sangdo2k12@gmail.com> 1760966131 +0700	commit: Tạo file text_branch_1.txt
+8cf443cbe4ea50f8da20e68545a6e0a16aee22e1 97a0dbb5a6a9e4d58d1bc16948bbee301871835c Xeko <sangdo2k12@gmail.com> 1760966268 +0700	checkout: moving from branch_1 to main
+97a0dbb5a6a9e4d58d1bc16948bbee301871835c 62bb974d6722d88306ba78e4aa7f1009de231558 Xeko <sangdo2k12@gmail.com> 1760966413 +0700	commit: Them 3 file vao main_folder
+62bb974d6722d88306ba78e4aa7f1009de231558 8cf443cbe4ea50f8da20e68545a6e0a16aee22e1 Xeko <sangdo2k12@gmail.com> 1760966448 +0700	checkout: moving from main to branch_1
+8cf443cbe4ea50f8da20e68545a6e0a16aee22e1 504839f2b187b187d7a07cbecd06ae29b0b95139 Xeko <sangdo2k12@gmail.com> 1760966456 +0700	pull origin main: Merge made by the 'ort' strategy.
+504839f2b187b187d7a07cbecd06ae29b0b95139 504839f2b187b187d7a07cbecd06ae29b0b95139 Xeko <sangdo2k12@gmail.com> 1760967085 +0700	checkout: moving from branch_1 to branch_1
+504839f2b187b187d7a07cbecd06ae29b0b95139 504839f2b187b187d7a07cbecd06ae29b0b95139 Xeko <sangdo2k12@gmail.com> 1760967100 +0700	checkout: moving from branch_1 to branch_5
+504839f2b187b187d7a07cbecd06ae29b0b95139 8fe5df9265968131e57642889ce0bcaea116f51f Xeko <sangdo2k12@gmail.com> 1760968101 +0700	commit: Bai 7
+8fe5df9265968131e57642889ce0bcaea116f51f 504839f2b187b187d7a07cbecd06ae29b0b95139 Xeko <sangdo2k12@gmail.com> 1760968318 +0700	checkout: moving from branch_5 to branch_1
+504839f2b187b187d7a07cbecd06ae29b0b95139 89ac16b54a0b1363382c3e7eb15d1f1929813490 Xeko <sangdo2k12@gmail.com> 1760968331 +0700	pull origin branch_1: Fast-forward
+89ac16b54a0b1363382c3e7eb15d1f1929813490 62bb974d6722d88306ba78e4aa7f1009de231558 Xeko <sangdo2k12@gmail.com> 1760968649 +0700	checkout: moving from branch_1 to main
+62bb974d6722d88306ba78e4aa7f1009de231558 89ac16b54a0b1363382c3e7eb15d1f1929813490 Xeko <sangdo2k12@gmail.com> 1760968684 +0700	merge origin/branch_1: Fast-forward
+89ac16b54a0b1363382c3e7eb15d1f1929813490 89ac16b54a0b1363382c3e7eb15d1f1929813490 Xeko <sangdo2k12@gmail.com> 1760968879 +0700	checkout: moving from main to branch_2
+89ac16b54a0b1363382c3e7eb15d1f1929813490 3f0fc79ea69ce85aee6b40b3dc8f892939e89cff Xeko <sangdo2k12@gmail.com> 1760968946 +0700	commit: text_branch_2
+3f0fc79ea69ce85aee6b40b3dc8f892939e89cff 89ac16b54a0b1363382c3e7eb15d1f1929813490 Xeko <sangdo2k12@gmail.com> 1760968969 +0700	checkout: moving from branch_2 to main
+89ac16b54a0b1363382c3e7eb15d1f1929813490 89ac16b54a0b1363382c3e7eb15d1f1929813490 Xeko <sangdo2k12@gmail.com> 1760969058 +0700	checkout: moving from main to branch_3
+89ac16b54a0b1363382c3e7eb15d1f1929813490 06aab87cd86b8419cefdc1e5d98b21c3e17179da Xeko <sangdo2k12@gmail.com> 1760969105 +0700	commit: text_branch_3.txt
+06aab87cd86b8419cefdc1e5d98b21c3e17179da 89ac16b54a0b1363382c3e7eb15d1f1929813490 Xeko <sangdo2k12@gmail.com> 1760969322 +0700	checkout: moving from branch_3 to main
+89ac16b54a0b1363382c3e7eb15d1f1929813490 89ac16b54a0b1363382c3e7eb15d1f1929813490 Xeko <sangdo2k12@gmail.com> 1760969330 +0700	checkout: moving from main to branch_4
+89ac16b54a0b1363382c3e7eb15d1f1929813490 fdab78660d187fbe4dbb95d39fbca0b3982ec1c0 Xeko <sangdo2k12@gmail.com> 1760969412 +0700	commit: text_branch_4.txt
+fdab78660d187fbe4dbb95d39fbca0b3982ec1c0 89ac16b54a0b1363382c3e7eb15d1f1929813490 Xeko <sangdo2k12@gmail.com> 1760970318 +0700	checkout: moving from branch_4 to main
+89ac16b54a0b1363382c3e7eb15d1f1929813490 3f0fc79ea69ce85aee6b40b3dc8f892939e89cff Xeko <sangdo2k12@gmail.com> 1760970376 +0700	merge origin/branch_2: Fast-forward
+3f0fc79ea69ce85aee6b40b3dc8f892939e89cff 34b74162544d052fc363ff917690a15717df73de Xeko <sangdo2k12@gmail.com> 1760970408 +0700	merge origin/branch_3: Merge made by the 'ort' strategy.
+34b74162544d052fc363ff917690a15717df73de 6691ab08fd12f6f882cc545bb7dc827c784f3fdb Xeko <sangdo2k12@gmail.com> 1760970424 +0700	merge origin/branch_4: Merge made by the 'ort' strategy.
+6691ab08fd12f6f882cc545bb7dc827c784f3fdb 89ac16b54a0b1363382c3e7eb15d1f1929813490 Xeko <sangdo2k12@gmail.com> 1760970655 +0700	checkout: moving from main to branch_1
+89ac16b54a0b1363382c3e7eb15d1f1929813490 6691ab08fd12f6f882cc545bb7dc827c784f3fdb Xeko <sangdo2k12@gmail.com> 1760970680 +0700	merge origin/main: Fast-forward
+6691ab08fd12f6f882cc545bb7dc827c784f3fdb 6691ab08fd12f6f882cc545bb7dc827c784f3fdb Xeko <sangdo2k12@gmail.com> 1760970998 +0700	checkout: moving from branch_1 to main

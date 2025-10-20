@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 97a0dbb5a6a9e4d58d1bc16948bbee301871835c Xeko <sangdo2k12@gmail.com> 1760966024 +0700	branch: Created from HEAD
+97a0dbb5a6a9e4d58d1bc16948bbee301871835c 8cf443cbe4ea50f8da20e68545a6e0a16aee22e1 Xeko <sangdo2k12@gmail.com> 1760966131 +0700	commit: Tạo file text_branch_1.txt
+8cf443cbe4ea50f8da20e68545a6e0a16aee22e1 504839f2b187b187d7a07cbecd06ae29b0b95139 Xeko <sangdo2k12@gmail.com> 1760966456 +0700	pull origin main: Merge made by the 'ort' strategy.
+504839f2b187b187d7a07cbecd06ae29b0b95139 89ac16b54a0b1363382c3e7eb15d1f1929813490 Xeko <sangdo2k12@gmail.com> 1760968331 +0700	pull origin branch_1: Fast-forward
+89ac16b54a0b1363382c3e7eb15d1f1929813490 6691ab08fd12f6f882cc545bb7dc827c784f3fdb Xeko <sangdo2k12@gmail.com> 1760970680 +0700	merge origin/main: Fast-forward
