@@ -1,0 +1,388 @@
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq
+$ git push origin
+fatal: not a git repository (or any of the parent directories): .git
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq
+$ cd /c/Users/Cường/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (main)
+$ git add .
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (main)
+$ git commit -m "update"
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (main)
+$ git push origin
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 584 bytes | 584.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap.git
+ * [new branch]      main -> main
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." >> text_branch_2.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_1)
+$ git add text_branch_1
+fatal: pathspec 'text_branch_1' did not match any files
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_1)
+$ git add text_branch_1.txt
+fatal: pathspec 'text_branch_1.txt' did not match any files
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." >> text_branch
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_1)
+$ git add text_branch_1.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_1)
+$ git commit -m "Thêm text_branch_2.txt"
+[branch_1 3059b11] Thêm text_branch_2.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 344 bytes | 344.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap.git
+ * [new branch]      branch_1 -> branch_1
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (main)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." >> text_branch_2.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_2)
+$ git add text_branch_2.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_2)
+$ git commit -m "Thêm text_branch_2.txt"
+[branch_2 4b7e01f] Thêm text_branch_2.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 337 bytes | 337.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap.git
+ * [new branch]      branch_2 -> branch_2
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (main)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_3)
+$ git add text_branch_3.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_3)
+$ git commit -m "Thêm text_branch_3.txt"
+[branch_3 1f4c8a1] Thêm text_branch_3.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_3)
+$ git push origin branch_3.txt
+error: src refspec branch_3.txt does not match any
+error: failed to push some refs to 'https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap.git'
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 346 bytes | 346.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap.git
+ * [new branch]      branch_3 -> branch_3
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (main)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." >  text_branch_4.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_4)
+$ git add text_branch_4.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_4)
+$ git commit -m "Thêm text_branch_4.txt"
+[branch_4 c68dbcd] Thêm text_branch_4.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 335 bytes | 335.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap.git
+ * [new branch]      branch_4 -> branch_4
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_4)
+$ git branch -d branch_4
+error: cannot delete branch 'branch_4' used by worktree at 'C:/Users/Cường/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap'
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_4)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+* branch_4
+  main
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_4)
+$ git branch -delete branch_4
+error: did you mean `--delete` (with two dashes)?
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_4)
+$ git branch -d branch_4\
+> ^C
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_4)
+$ git branch -d branch_4
+error: cannot delete branch 'branch_4' used by worktree at 'C:/Users/Cường/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap'
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (main)
+$ git branch -d branch_4
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (main)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+  branch_4
+* main
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (main)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+  branch_4
+* main
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (main)
+$ git pull origin main
+From https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (main)
+$ mkdir main_folder
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap (main)
+$ cd main_folder
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (main)
+$ touch main_txt_1.txt main_txt_2.txt main_txt_3.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (main)
+$ git add .
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (main)
+$ git commit -m "update"
+[main 97eb3d0] update
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 326 bytes | 326.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap.git
+   55ed5b8..97eb3d0  main -> main
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (branch_5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non
+metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie
+accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros.
+Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae,
+porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class
+aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra.
+Phasellus dignissim mollis leo, vitae tristique enim." > text_branch_1.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (branch_5)
+$ git add text_branch_1.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (branch_5)
+$ git commit -m "Chỉnh sửa text_branch_1.txt trong branch_5"
+[branch_5 317bf4b] Chỉnh sửa text_branch_1.txt trong branch_5
+ 1 file changed, 9 insertions(+)
+ create mode 100644 main_folder/text_branch_1.txt
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 784 bytes | 784.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap/pull/new/branch_5
+remote:
+To https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap.git
+ * [new branch]      branch_5 -> branch_5
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (branch_5)
+$ git branch -d branch_5
+error: cannot delete branch 'branch_5' used by worktree at 'C:/Users/Cường/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap'
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (branch_5)
+$ git push origin --delete branch_5
+To https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap.git
+ - [deleted]         branch_5
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (branch_5)
+$ git branch -d branch_2
+error: the branch 'branch_2' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_2'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (branch_5)
+$ git branch -d branch_3
+git branch -d branch_4
+error: the branch 'branch_3' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_3'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (branch_5)
+$ ^[[200~git push origin --delete branch_2
+bash: $'\E[200~git': command not found
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (branch_5)
+$ git push origin --delete branch_
+error: unable to delete 'branch_': remote ref does not exist
+error: failed to push some refs to 'https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap.git'
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (branch_5)
+$ git push origin --delete branch_2
+git push origin --delete branch_3
+git push origin --delete branch_4
+To https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap.git
+ - [deleted]         branch_2
+To https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap.git
+ - [deleted]         branch_3
+To https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap.git
+ - [deleted]         branch_4
+
+Cường@LAPTOP-QBQRU9CU MINGW64 ~/Desktop/mq/37_-o-n-Minh-Qu-n_bai_tap/main_folder (branch_5)
+$ git checkout branch_1
+git pull origin main
+git push origin branch_1
+Switched to branch 'branch_1'
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 1.09 KiB | 18.00 KiB/s, done.
+From https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap
+ * branch            main       -> FETCH_HEAD
+   97eb3d0..a14d217  main       -> origin/main
+Updating 3059b11..a14d217
+Fast-forward
+ main_folder/main_txt_1.txt    | 0
+ main_folder/main_txt_2.txt    | 0
+ main_folder/main_txt_3.txt    | 0
+ main_folder/text_branch_1.txt | 9 +++++++++
+ 4 files changed, 9 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+ create mode 100644 main_folder/text_branch_1.txt
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/iamdmq/37_-o-n-Minh-Qu-n_bai_tap.git
+   3059b11..a14d217  branch_1 -> branch_1
