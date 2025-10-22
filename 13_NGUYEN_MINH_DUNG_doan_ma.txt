@@ -1,0 +1,73 @@
+# BÀI 1
+git clone https://github.com/<user>/13_NGUYEN_MINH_DUNG_bai_tap.git
+cd 13_NGUYEN_MINH_DUNG_bai_tap
+
+# BÀI 2
+notepad README.md
+git add README.md
+git commit -m "Cập nhật README"
+git push origin main
+
+# BÀI 3
+git checkout -b branch_1
+echo "text 1" > text_branch_1.txt
+git add .
+git commit -m "branch_1"
+git push origin branch_1
+
+git checkout -b branch_2
+echo "text 2" > text_branch_2.txt
+git add .
+git commit -m "branch_2"
+git push origin branch_2
+
+git checkout -b branch_3
+echo "text 3" > text_branch_3.txt
+git add .
+git commit -m "branch_3"
+git push origin branch_3
+
+git checkout -b branch_4
+echo "text 4" > text_branch_4.txt
+git add .
+git commit -m "branch_4"
+git push origin branch_4
+
+# BÀI 4
+git checkout main
+git branch -d branch_4
+git branch -r
+
+# BÀI 5
+git pull origin main
+
+# BÀI 6
+mkdir main_folder
+echo "File 1" > main_folder/main_txt_1.txt
+echo "File 2" > main_folder/main_txt_2.txt
+echo "File 3" > main_folder/main_txt_3.txt
+git add main_folder
+git commit -m "Thêm main_folder"
+git push origin main
+
+# BÀI 7
+git checkout branch_1
+git checkout -b branch_5
+notepad text_branch_1.txt
+git add text_branch_1.txt
+git commit -m "Cập nhật text_branch_1"
+git push origin branch_5
+
+# (PR: base = branch_1, compare = branch_5)
+git branch -d branch_5
+git push origin --delete branch_5
+
+# BÀI 8
+# (Tạo PR: base = main, compare = branch_1,2,3,... → merge tất cả)
+
+# BÀI 9
+git branch -d branch_2 branch_3 branch_4
+git push origin --delete branch_2 branch_3 branch_4
+git checkout branch_1
+git pull origin main
+git push origin branch_1
