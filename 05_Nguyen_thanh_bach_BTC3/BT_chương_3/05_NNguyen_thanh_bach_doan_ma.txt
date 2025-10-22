@@ -1,0 +1,500 @@
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3
+$ git clone https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap.git
+
+Cloning into '05_Nguyen_Thanh_Bach_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3
+$ cd 05_Nguyen_Thanh_Bach_bai_tap
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git add .
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git commit -m "commit1:cap nhat nd vao readme"
+[main 4ae0bf9] commit1:cap nhat nd vao readme
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 666 bytes | 666.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap.git
+   3e583c7..4ae0bf9  main -> main
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_1)
+$ touch text_branch_1.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_1)
+$ git add text_branch_1.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_1)
+$ git commit -m "them nd vao nhanh 1"
+[branch_1 7081bab] them nd vao nhanh 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 348 bytes | 348.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap.git
+ * [new branch]      branch_1 -> branch_1
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_2)
+$ touch text_branch_2.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_2)
+$ git add text_branch_2.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_2)
+$ git commit -m "them nd vao nhanh 2"
+[branch_2 afec933] them nd vao nhanh 2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 344 bytes | 172.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap.git
+ * [new branch]      branch_2 -> branch_2
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_3)
+$ touch text_branch_3
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_3)
+$ rm text_branch_3
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_3)
+$ ls
+README.md  text_branch_3.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_3)
+$ git add text_branch_3.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_3)
+$ git commit -m "them nd vao nhanh 3"
+[branch_3 4521bb9] them nd vao nhanh 3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 352 bytes | 352.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap.git
+ * [new branch]      branch_3 -> branch_3
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_4)
+$ git add text_branch_4.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_4)
+$ git commit -m "them nd vao nhanh 4"
+[branch_4 5ec9e99] them nd vao nhanh 4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 341 bytes | 170.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap.git
+ * [new branch]      branch_4 -> branch_4
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_4)
+$ git checkout main~
+Note: switching to 'main~'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 3e583c7 Initial commit
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap ((3e583c7...))
+$ git checkout main
+Previous HEAD position was 3e583c7 Initial commit
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was 5ec9e99).
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git branch --list
+  branch_1
+  branch_2
+  branch_3
+* main
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git branch -r
+  origin/HEAD -> origin/main
+  origin/branch_1
+  origin/branch_2
+  origin/branch_3
+  origin/branch_4
+  origin/main
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git pull
+Already up to date.
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ mkdir main_folder
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ cd main_folder
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap/main_folder (main)
+$ touch main_txt_1.txt main_txt_2.txt main_txt_3.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap/main_folder (main)
+$ git add .
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap/main_folder (main)
+$ git commit -m "them main folder va cac tep tin"
+[main fe5a0bb] them main folder va cac tep tin
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap/main_folder (main)
+$ cd ..
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 357 bytes | 119.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap.git
+   4ae0bf9..fe5a0bb  main -> main
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+Merge branch 'main' into branch_1
+(đoạn Merge này có bị hiện lên cái màn hình xanh mặc dù em out ra dc r nhưng bị mất 1 số đoạn code cô thông cảm cho em em đánh tay 1 số đoạ
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#cap nhant thay doi tu main sang nhanh 1
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+error: Empty commit message.
+Not committing merge; use 'git commit' to complete the merge.
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_1|MERGING)
+$ git commit -m "cap nhat thay doi tu main qua nhanh1"
+[branch_1 e759b88] cap nhat thay doi tu main qua nhanh1
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 361 bytes | 361.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap.git
+   7081bab..e759b88  branch_1 -> branch_1
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git checkout branch_2
+Switched to branch 'branch_2'
+git merge main
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 0
+ main_folder/main_txt_2.txt | 0
+ main_folder/main_txt_3.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 360 bytes | 180.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap.git
+   afec933..e44b027  branch_2 -> branch_2
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_2)
+$ git checkout branch_3
+Switched to branch 'branch_3'
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_3)
+$ git pull origin main
+
+From https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 0
+ main_folder/main_txt_2.txt | 0
+ main_folder/main_txt_3.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 426 bytes | 426.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap.git
+   4521bb9..5b5495c  branch_3 -> branch_3
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_3)
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_3)
+$ git branch --list
+  branch_1
+  branch_2
+* branch_3
+  main
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_3)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_1)
+$ git pull origin branch_1
+From https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap
+ * branch            branch_1   -> FETCH_HEAD
+Already up to date.
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra. Phasellus dignissim mollis leo, vitae tristique enim." > text_branch_1.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_5)
+$ git add text_branch_1.txt
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_5)
+$ git commit -m "Bai 7: Cap nhat noi dung text_branch_1.txt"
+[branch_5 c967433] Bai 7: Cap nhat noi dung text_branch_1.txt
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 659 bytes | 659.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap/pull/new/branch_5
+remote:
+To https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap.git
+ * [new branch]      branch_5 -> branch_5
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_5)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_1)
+$ git pull origin branch_1
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (1/1), 931 bytes | 310.00 KiB/s, done.
+From https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap
+ * branch            branch_1   -> FETCH_HEAD
+   e759b88..74b4694  branch_1   -> origin/branch_1
+Updating e759b88..74b4694
+Fast-forward
+ text_branch_1.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git branch -D branch_5
+Deleted branch branch_5(was c9674
+
+B8(sau khi đã xóa nhánh 5)
+ em dùng lệnh 
+git checkout main
+git pull origin main (dể cho main là mới nhất)
+gộp các main = lệnh git merge <tên nhánh>
+sau đó em push lên github bằng lệnh git psuh origin mian
+khi em gộp xong thì nó hiện lên các lệnh như này
+Merge made by the 'ort' strategy.
+ text_branch_3.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+chỉ thay tên tệp thôi ạ
+
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 641 bytes | 320.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap.git
+   fe5a0bb..b827a80  main -> main
+
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git branch -D branch_2
+Deleted branch branch_2 (was e44b027).
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git push origin --delete branch_2
+To https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap.git
+ - [deleted]         branch_2
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git branch -D branch_3
+Deleted branch branch_3 (was 5b5495c).
+
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git push origin --delete branch_3
+To https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap.git
+ - [deleted]         branch_3
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git push origin --delete branch_4
+To https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap.git
+ - [deleted]         branch_4
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+ach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_1)
+$ git pull origin main
+From https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap
+ * branch            main       -> FETCH_HEAD
+Updating 74b4694..b827a80
+Fast-forward
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+bach2@MSI MINGW64 /d/python/bai_tap_tin_hoc_co_so/BT_chương_3/05_Nguyen_Thanh_Bach_bai_tap (branch_1)
+$ git push origin branch_1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/bachdeptraiso1vutru-dev/05_Nguyen_Thanh_Bach_bai_tap.git
+   74b4694..b827a80  branch_1 -> branch_1
+
