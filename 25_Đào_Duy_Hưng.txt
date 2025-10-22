@@ -1,0 +1,465 @@
+Hi@DESKTOP-8KTE88M MINGW64 /
+$ git clone https://github.com/kimhue2712/01_Dao_Duy_Hung_bai_tapp.git
+Cloning into '01_Dao_Duy_Hung_bai_tapp'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Hi@DESKTOP-8KTE88M MINGW64 /
+$ git add README.md
+fatal: not a git repository (or any of the parent directories): .git
+
+Hi@DESKTOP-8KTE88M MINGW64 /
+$ cd /01_Dao_Duy_Hung_bai_tapp
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git add README.md
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git commit -m "Cập nhật nội dung README.md lần đầu"
+[main d81ff81] Cập nhật nội dung README.md lần đầu
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 664 bytes | 664.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kimhue2712/01_Dao_Duy_Hung_bai_tapp.git
+   fd64d07..d81ff81  main -> main
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_1)
+$ echo "Lorem ipsum dolor sit amet,consectetur adipiscing elit." > text_branch1.txt
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_1)
+$ git add text_branch_1.txt
+fatal: pathspec 'text_branch_1.txt' did not match any files
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_1)
+$ git add text_branch1.txt
+warning: in the working copy of 'text_branch1.txt', LF will be replaced by CRLF
+the next time Git touches it
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_1)
+$ echo "Lorem ipsum dolor sit amet,consectetur adipiscing elit." > text_branch_1.txt
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_1)
+$ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF
+ the next time Git touches it
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_1)
+$ git commit -m "Thêm file text_branch_1.txt"
+[branch_1 05d23a0] Thêm file text_branch_1.txt
+ 2 files changed, 2 insertions(+)
+ create mode 100644 text_branch1.txt
+ create mode 100644 text_branch_1.txt
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 363 bytes | 363.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/kimhue2712/01_Dao_Duy_Hung_bai_tapp/pull/new/bra
+nch_1
+remote:
+To https://github.com/kimhue2712/01_Dao_Duy_Hung_bai_tapp.git
+ * [new branch]      branch_1 -> branch_1
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt"
+git add text_branch_2.txt
+
+^C
+
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_2)
+$ git add text_branch_2.txt
+fatal: pathspec 'text_branch_2.txt' did not match any files
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt"
+^C
+
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_2)
+$ echo echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt"
+^C
+
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." >text_branch_2.txt
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_2)
+$ git add text_branch_2.txt
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF
+ the next time Git touches it
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_2)
+$ commit -m "Thêm file text_branch_2.txt"
+bash: commit: command not found
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_2)
+$ git commit -m "Thêm file text_branch_2.txt"
+[branch_2 c3e903c] Thêm file text_branch_2.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_3)
+$ echo "Integer sit amet nisi aliquam,tempor libero quis,cursus erat." >text_branch_3.txt
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_3)
+$ git add text_branch_3.txt
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF
+ the next time Git touches it
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_3)
+$ git commit -m "Thêm file text_branch_3.txt
+^C
+
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_3)
+$ git commit -m "Thêm file text_branch_3.txt"
+[branch_3 377959a] Thêm file text_branch_3.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_4)
+$ echo "Cras ac mi nec nisi portaultrices sed non ante." >text_branch_4.txt
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_4)
+$ git add text_branch_4.txt
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF
+ the next time Git touches it
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_4)
+$ git commit -m "Thêm file text_branch_4.txt"
+[branch_4 496e507] Thêm file text_branch_4.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_4)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+* branch_4
+  main
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_4)
+$ git -d branch_4
+unknown option: -d
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy
+-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envva
+r>]
+           <command> [<args>]
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_4)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+* branch_4
+  main
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_4)
+$ git branch -D branch_4
+error: cannot delete branch 'branch_4' used by worktree at 'C:/Program Files/Git
+/01_Dao_Duy_Hung_bai_tapp'
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git branch -d branch_4
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was 496e507).
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+* main
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git branch -r
+  origin/HEAD -> origin/main
+  origin/branch_1
+  origin/main
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git pull
+Already up to date.
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ mkdir main_folder
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ echo "Nội dung file 1"
+Nội dung file 1
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ echo "Nội dung file 1" > main_txt_1.txt
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ echo "Nội dung file 2" > main_txt_2.txt
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ echo "Nội dung file 3" > main_txt_3.txt
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git add .
+warning: in the working copy of 'main_txt_1.txt', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'main_txt_2.txt', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'main_txt_3.txt', LF will be replaced by CRLF th
+e next time Git touches it
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git commit -m "Thêm thư mục main_folder với 3 file text"
+[main 8c9df62] Thêm thư mục main_folder với 3 file text
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_txt_1.txt
+ create mode 100644 main_txt_2.txt
+ create mode 100644 main_txt_3.txt
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 446 bytes | 446.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kimhue2712/01_Dao_Duy_Hung_bai_tapp.git
+   d81ff81..8c9df62  main -> main
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git pull
+Already up to date.
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non
+metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie
+accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros.
+Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae,
+porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class
+aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra.
+Phasellus dignissim mollis leo, vitae tristique enim." >text_branch_1.txt
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_5)
+$ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF
+ the next time Git touches it
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_5)
+$ git commit -m "Chỉnh sủa file text_branch_1.txt trong branch_5"
+[branch_5 34c348c] Chỉnh sủa file text_branch_1.txt trong branch_5
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 671 bytes | 671.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/kimhue2712/01_Dao_Duy_Hung_bai_tapp/pull/new/bra
+nch_5
+remote:
+To https://github.com/kimhue2712/01_Dao_Duy_Hung_bai_tapp.git
+ * [new branch]      branch_5 -> branch_5
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_5)
+$ git cheackout main
+git: 'cheackout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_5)
+$ git git checkout main
+git: 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (branch_5)
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (2/2), 995 bytes | 165.00 KiB/s, done.
+From https://github.com/kimhue2712/01_Dao_Duy_Hung_bai_tapp
+   8c9df62..f69ff33  main       -> origin/main
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+Merge branch 'branch_1'
+
+
+
+
+
+
+
+
+
+Merge branch 'branch_2'
+
+
+
+
+
+
+
+Merge branch 'branch_3'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Merge made by the 'ort' strategy.
+ text_branch_3.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git merge branch_4
+merge: branch_4 - not something we can merge
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git push origin main
+To https://github.com/kimhue2712/01_Dao_Duy_Hung_bai_tapp.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/kimhue2712/01_Dao_Duy_Hun
+g_bai_tapp.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ git branch -d branch_2
+Deleted branch branch_2 (was c3e903c).
+Merge branch 'main' of https://github.com/kimhue2712/01_Dao_Duy_Hung_bai_tapp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Merge made by the 'ort' strategy.
+
+Hi@DESKTOP-8KTE88M MINGW64 /01_Dao_Duy_Hung_bai_tapp (main)
+$ 01
