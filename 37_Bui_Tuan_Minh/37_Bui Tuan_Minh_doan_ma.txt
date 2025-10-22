@@ -1,0 +1,310 @@
+HP@LAPTOP-4A2U8PMG MINGW64 ~
+$ git clone https://github.com/minh-bui25/37_B-i-Tu-n-Minh_BAI_TAP.git
+Cloning into '37_B-i-Tu-n-Minh_BAI_TAP'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~
+$ cd
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~
+$ cd 37_B-i-Tu-n-Minh_BAI_TAP
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ git add .
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ git commit -m "README"
+[main 8847543] README
+ 1 file changed, 18 insertions(+), 1 deletion(-)
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ git push
+fatal: User cancelled dialog.
+
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 628 bytes | 628.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/minh-bui25/37_B-i-Tu-n-Minh_BAI_TAP.git
+   e540b11..8847543  main -> main
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ git branch branch_1
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_1)
+$ echo Lorem ipsum dolor sit amet, consectetur adipiscing elit > text_b
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_1)
+$ git add .
+warning: in the working copy of 'text_branch_1.txt', LF will be replace next time Git touches it
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_1)
+$ git commit -m "branch_1"
+[branch_1 5c38757] branch_1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 338 bytes | 338.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/minh-bui25/37_B-i-Tu-n-Minh_BAI_TAP/pul1
+remote:
+To https://github.com/minh-bui25/37_B-i-Tu-n-Minh_BAI_TAP.git
+ * [new branch]      branch_1 -> branch_1
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ git branch branch_2
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ git checkout branch_2
+Switched to branch 'branch_2'
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_2)
+$ echo Praesent ullamcorper orci eu erat placerat sodales. > text_branc
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_2)
+$ git add .
+warning: in the working copy of 'text_branch_2.txt', LF will be replace next time Git touches it
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_2)
+$ git commit -m "branch_2"
+[branch_2 9f3f801] branch_2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 333 bytes | 333.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/minh-bui25/37_B-i-Tu-n-Minh_BAI_TAP/pul2
+remote:
+To https://github.com/minh-bui25/37_B-i-Tu-n-Minh_BAI_TAP.git
+ * [new branch]      branch_2 -> branch_2
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ git branch -d branch_2
+error: the branch 'branch_2' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_
+hint: Disable this message with "git config set advice.forceDeleteBranc
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ git branch -D branch_2
+Deleted branch branch_2 (was 9f3f801).
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ git branch --list
+  branch_1
+* main
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ git pull
+Already up to date.
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ mkdir main_folder
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ cd main_folder
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP/main_folder (main
+$ touch main_txt_1.txt main_txt_2.txt main_txt_3.txt
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP/main_folder (main
+$ git add .
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP/main_folder (main
+$ git commit -m "main_txt"
+[main b20bd8a] main_txt
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP/main_folder (main
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 341 bytes | 341.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/minh-bui25/37_B-i-Tu-n-Minh_BAI_TAP.git
+   8847543..b20bd8a  main -> main
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP/main_folder (main
+$ git pull
+Already up to date.
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP/main_folder (main
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP/main_folder (bran
+$ git branch branch_5
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP/main_folder (bran
+$ git add .
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP/main_folder (bran
+$ cat text_branch_1.txt
+cat: text_branch_1.txt: No such file or directory
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP/main_folder (bran
+$ cd ..
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_1)
+$ cat text_branch_1.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hen
+metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin
+accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo e
+Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et
+porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt n
+aptent taciti sociosqu ad litora torquent per conubia nostra, per incep
+himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula au
+Phasellus dignissim mollis leo, vitae tristique enim.
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_1)
+$ git commit -m "branch_5"
+On branch branch_1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   text_branch_1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_1)
+$ git push
+fatal: The current branch branch_1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branch_1
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_1)
+$ git push origin branch_1
+Everything up-to-date
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_1)
+$ gti checkout branch_5
+bash: gti: command not found
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_1)
+$ git checkout branch_5
+M       text_branch_1.txt
+Switched to branch 'branch_5'
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_5)
+$ cat text_branch_1.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hen
+metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin
+accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo e
+Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et
+porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt n
+aptent taciti sociosqu ad litora torquent per conubia nostra, per incep
+himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula au
+Phasellus dignissim mollis leo, vitae tristique enim.
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_5)
+$ git add .
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_5)
+$ git commit -m "branch_5"
+[branch_5 9c80e1f] branch_5
+ 1 file changed, 9 insertions(+)
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 697 bytes | 697.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/minh-bui25/37_B-i-Tu-n-Minh_BAI_TAP/pul5
+remote:
+To https://github.com/minh-bui25/37_B-i-Tu-n-Minh_BAI_TAP.git
+ * [new branch]      branch_5 -> branch_5
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_5)
+$ git branch -D branch_5
+error: cannot delete branch 'branch_5' used by worktree at 'C:/Users/HPMinh_BAI_TAP'
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ git branch -D branch_5
+Deleted branch branch_5 (was 9c80e1f).
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ git branch
+  branch_1
+* main
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ ls
+README.md  main_folder/
+
+HP@LAPTOP-4A2U8PMG MINGW64 ~/37_B-i-Tu-n-Minh_BAI_TAP (main)
+$ git pull
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (5/5), 2.78 KiB | 123.00 KiB/s, done.
+From https://github.com/minh-bui25/37_B-i-Tu-n-Minh_BAI_TAP
+   b20bd8a..d7db50f  main       -> origin/main
+   5c38757..7cd3362  branch_1   -> origin/branch_1
+Updating b20bd8a..d7db50f
+Fast-forward
+ text_branch_1.txt | 10 ++++++++++
+ text_branch_2.txt |  1 +
+ 2 files changed, 11 insertions(+)
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
