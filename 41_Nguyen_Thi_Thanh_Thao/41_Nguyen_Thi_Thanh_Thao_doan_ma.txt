@@ -1,0 +1,5 @@
+cd ..
+git add 41_Nguyen_Thi_Thanh_Thao/41_Nguyen_Thi_Thanh_Thao_Doan_Ma.txt
+git commit -m "Thêm file đoạn mã tổng hợp bài tập"
+git push origin main
+
