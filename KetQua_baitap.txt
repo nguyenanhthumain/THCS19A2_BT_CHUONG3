@@ -1,0 +1,570 @@
+admin@Thu?n MINGW64 ~ (main)
+$ cd baitap
+
+admin@Thu?n MINGW64 ~/baitap (main)
+$ git clone https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+Cloning into '49_Tran_Van_Thuan_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+admin@Thu?n MINGW64 ~/baitap (main)
+$ cd 49_Tran_Van_Thuan_bai_tap
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ notepad README.md
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git add .
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git add README.md
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git commit -m "chinh sua README.md"
+[main 7cfe10d] chinh sua README.md
+ 1 file changed, 18 insertions(+), 1 deletion(-)
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 634 bytes | 634.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+   3f8366d..7cfe10d  main -> main
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_1)
+$ touch text_branch_1.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_1)
+$ cat text_branch_1.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_1)
+$ git add text_branch_1.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_1)
+$ git commit -m "chinh sua text_branch_1.txt"
+[branch_1 c59084d] chinh sua text_branch_1.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 348 bytes | 348.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+ * [new branch]      branch_1 -> branch_1
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_2)
+$ touch text_branch_2.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales.
+> ``````"
+Praesent ullamcorper orci eu erat placerat sodales.
+
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_2)
+$ cat text_branch_2.txt
+Praesent ullamcorper orci eu erat placerat sodales.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_2)
+$ git add text_branch_2.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_2)
+$ git commit -m "chinh sua text_branch_2.txt"
+[branch_2 8ceadd9] chinh sua text_branch_2.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 343 bytes | 343.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+ * [new branch]      branch_2 -> branch_2
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_3)
+$ touch text_branch_3.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_3)
+$ cat text_branch
+cat: text_branch: No such file or directory
+
+
+
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_3)
+$
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_3)
+$
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_3)
+$
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_3)
+$
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_3)
+$
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_3)
+$
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_3)
+$ cat text_branch_3.txt
+Integer sit amet nisi aliquam, tempor libero quis, cursus erat.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_3)
+$ git add text_branch_3.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_3)
+$ git commit -m "chinh sua text_branch_3.txt"
+[branch_3 f6a8b9a] chinh sua text_branch_3.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 351 bytes | 351.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+ * [new branch]      branch_3 -> branch_3
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_4)
+$ touch text_branch_4.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_4)
+$ git add text_branch_4.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_4)
+$ git commit -m "chinh sua text_branch_4.txt"
+[branch_4 72ffbf6] chinh sua text_branch_4.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 341 bytes | 341.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+ * [new branch]      branch_4 -> branch_4
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_4)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+* branch_4
+  main
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git branch -d branch_4
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git branch_ -D branch_4
+git: 'branch_' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was 72ffbf6).
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+* main
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git branch -r
+  origin/HEAD -> origin/main
+  origin/branch_1
+  origin/branch_2
+  origin/branch_3
+  origin/branch_4
+  origin/main
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git pull origin main
+From https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git pull
+Already up to date.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+* main
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ mkdir main_folder
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ touch main_txt_1.txt main_txt_2.txt main_txt_3.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ ls
+README.md  main_folder/  main_txt_1.txt  main_txt_2.txt  main_txt_3.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git commit -m " them file main_folder va 3 thu muc text"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        main_txt_1.txt
+        main_txt_2.txt
+        main_txt_3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git add .
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   main_txt_1.txt
+        new file:   main_txt_2.txt
+        new file:   main_txt_3.txt
+
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git push origin main
+Everything up-to-date
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git checkout branch_1
+A       main_txt_1.txt
+A       main_txt_2.txt
+A       main_txt_3.txt
+Switched to branch 'branch_1'
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_1)
+$ git pull origin main
+From https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_1)
+$ git checkout branch_2
+A       main_txt_1.txt
+A       main_txt_2.txt
+A       main_txt_3.txt
+Switched to branch 'branch_2'
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_2)
+$ git pull origin main
+From https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_2)
+$ git checkout branch_3
+A       main_txt_1.txt
+A       main_txt_2.txt
+A       main_txt_3.txt
+Switched to branch 'branch_3'
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_3)
+$ git pull origin main
+From https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_3)
+$ git checkout main
+A       main_txt_1.txt
+A       main_txt_2.txt
+A       main_txt_3.txt
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git checkout branch_1
+A       main_txt_1.txt
+A       main_txt_2.txt
+A       main_txt_3.txt
+Switched to branch 'branch_1'
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_5)
+$ git add .
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_5)
+$ git commit -m "chinh sua file text_branch_1.txt trong branch_5"
+[branch_5 6f2b77e] chinh sua file text_branch_1.txt trong branch_5
+ 4 files changed, 9 insertions(+), 1 deletion(-)
+ create mode 100644 main_txt_1.txt
+ create mode 100644 main_txt_2.txt
+ create mode 100644 main_txt_3.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_5)
+$ git push origin branch_5
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 738 bytes | 738.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap/pull/new/branch_5
+remote:
+To https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+ * [new branch]      branch_5 -> branch_5
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_5)
+$ git branch -d branch
+error: branch 'branch' not found
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git branch -d branch_5
+error: the branch 'branch_5' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_5'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git branch -D branch_5
+Deleted branch branch_5 (was 6f2b77e).
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git push origin --delete branch_5
+To https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+ - [deleted]         branch_5
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git branch -D branch_2
+Deleted branch branch_2 (was 8ceadd9).
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git branch -D branch_3
+Deleted branch branch_3 (was f6a8b9a).
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git branch -D branch_4
+error: branch 'branch_4' not found
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git branch -d branch_4
+error: branch 'branch_4' not found
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git push origin --delete branch_2
+To https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+ - [deleted]         branch_2
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git push origin --delete branch_3
+To https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+ - [deleted]         branch_3
+git
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git push origin --delete branch_4
+To https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+ - [deleted]         branch_4
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git pull
+remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 16 (delta 7), reused 4 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (16/16), 4.29 KiB | 365.00 KiB/s, done.
+From https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+   7cfe10d..8dd0ba6  main       -> origin/main
+Updating 7cfe10d..8dd0ba6
+Fast-forward
+ text_branch_1.txt | 1 +
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ text_branch_4.txt | 1 +
+ 4 files changed, 4 insertions(+)
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git fetch --prune
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git branch -a
+  branch_1
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/branch_1
+  remotes/origin/main
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_1)
+$ git pull origin main
+From https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+ * branch            main       -> FETCH_HEAD
+Updating c59084d..8dd0ba6
+Fast-forward
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ text_branch_4.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_1)
+$ git merge main
+Already up to date.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_1)
+$ git add .
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_1)
+$ git commit -m "update branch_1 from main"
+On branch branch_1
+nothing to commit, working tree clean
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_1)
+$ git push origin branch_1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/tvthuan25174600075-oss/49_Tran_Van_Thuan_bai_tap
+   c59084d..8dd0ba6  branch_1 -> branch_1
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@Thu?n MINGW64 ~/baitap/49_Tran_Van_Thuan_bai_tap (main)
+
