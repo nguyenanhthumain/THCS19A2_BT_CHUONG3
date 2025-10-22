@@ -1,0 +1,66 @@
+309  cd ~/Desktop
+  310  git clone https://github.com/lqtrung25174600130-bot/49_LE_QUOC_TRUNG_BAI_TAP.git
+  311  cd ~/Desktop/49_LE_QUOC_TRUNG_BAI_TAP
+  312  CLEAR
+  313  git add README.md
+  314  git commit -m "cap nhat readme bai2"
+  315  git push origin main
+  316  clear
+  317  git add README.md
+  318  git commit -m"cap nhat README BAI 2"
+  319  nano README.md
+  320  git add README.md
+  321  git commit -m "cap nhat noi dung bai2"
+  322  git push origin main
+  323  git checkout -b branch_1
+  324  echo"Lorem ipsum dolor sit amet, consectetur adipiscing elit" > text_branch_1.txt
+  325  git add.
+  326  git add .
+  327  git commit -m Add"
+  328  git commit -m "Add"
+  329  
+  330  
+  331  
+  332  
+  333  
+  334  
+  335  
+  336  clear
+  337  clear
+  338  git checkout -b branch_1
+  339  git commit -m"Add"
+  340  git checkout main
+  341  git checkout -b branch_2
+  342  echo "Praesent ullamcorper orci eu erat placerat sodales" >text_branch_2.txt
+  343  git add.
+  344  git add .
+  345  git commit -m "Add"
+  346  git checkout main
+  347  git checkout -b branch_3
+  348  echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat" >text_branch_3.txt
+  349  git add .
+  350  git commit -m "Add"
+  351  git checkout main
+  352  git checkout -b branch_4
+  353  echo"Cras ac mi nec nisi porta ultrices sed non ante" > text_branch_4.txt
+  354  echo "Cras ac mi nec nisi porta ultrices sed non ante" > text_branch_4.txt
+  355  git add .
+  356  git commit -m "Add"
+  357  git push --all origin
+  358  git checkout main
+  359  git branch -d branch_4
+  360  git pull origin main
+  361  git branch -D brach_4
+  362  git púh origin --delete brach_4
+  363  git push  origin --delete brach_4
+  364  git push origin --delete branch_4
+  365  clear
+  366  git checkout branch_1
+  367  git merge main
+  368  git push origin branch_1
+  369  git branch -d branch_2
+  370  git checkout main
+  371  git branch -D branch_2
+  372  git push origin :branch_2
+  373  git branch -D branch_3
+  374  git push origin :branch_3
