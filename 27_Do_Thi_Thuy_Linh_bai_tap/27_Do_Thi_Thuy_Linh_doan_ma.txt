@@ -1,0 +1,351 @@
+LinhThuy@DESKTOP-OB4KT1G ~/Documents MINGW64 $ git clone https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git
+Cloning into '27_Do_Thi_Thuy_Linh_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents MINGW64 $ cd 27_Do_Thi_Thuy_Linh_bai_tap
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ notepad README.md
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git add README.md
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git commit -m "chinh sua noi dung README.md - Do Thi Thuy Linh"
+[main d9b92fd] chinh sua noi dung README.md - Do Thi Thuy Linh
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 674 bytes | 674.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git
+   93fbdce..d9b92fd  main -> main
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ notepad text_branch_1.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git add text_branch_1.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git commit -m "thêm text_branch_1.txt vào branch_1"
+[branch_1 1770502] thêm text_branch_1.txt vào branch_1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 359 bytes | 359.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git
+ * [new branch]      branch_1 -> branch_1
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ notepad text_branch_2.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git add text_branch_2.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git commit -m "thêm text_branch_2.txt vào branch_2"
+[branch_2 2e0ef69] thêm text_branch_2.txt vào branch_2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 357 bytes | 357.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git
+ * [new branch]      branch_2 -> branch_2
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ notepad text_branch_3.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git add text_branch_3.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git commit -m "thêm text_branch_3.txt vào branch_3"
+[branch_3 7103e3c] thêm text_branch_3.txt vào branch_3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 365 bytes | 365.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git
+ * [new branch]      branch_3 -> branch_3
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ notepad text_branch_4.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git add text_branch_4.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git commit -m "thêm text_branch_4.txt vào branch_4"
+[branch_4 ec5ab18] thêm text_branch_4.txt vào branch_4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 355 bytes | 355.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git
+ * [new branch]      branch_4 -> branch_4
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git branch -D branch_4
+error: cannot delete branch 'branch_4' used by worktree at 'C:/Users/ADMIN/Documents/27_Do_Thi_Thuy_Linh_bai_tap'
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git branch -D branch_4
+Deleted branch branch_4 (was ec5ab18).
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git branch --list
+  branch_1
+  branch_1
+  branch_2
+  branch_3
+* main
+bash: branch_1: command not found
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git push origin --delete branch_4
+To https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git
+ - [deleted]         branch_4
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git fetch --prune
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git branch -r
+  origin/HEAD -> origin/main
+  origin/branch_1
+  origin/branch_2
+  origin/branch_3
+  origin/main
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git pull origin main
+From https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout branch_1
+Switched to branch 'branch_1'
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git pull origin branch_1
+From https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap
+ * branch            branch_1   -> FETCH_HEAD
+Already up to date.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout branch_2
+Switched to branch 'branch_2'
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git pull origin branch_2
+From https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap
+ * branch            branch_2   -> FETCH_HEAD
+Already up to date.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout branch_3
+Switched to branch 'branch_3'
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git pull origin branch_3
+From https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap
+ * branch            branch_3   -> FETCH_HEAD
+Already up to date.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git pull
+Already up to date.
+Already up to date.
+bash: Already: command not found
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git status
+On branch main
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+bash: On: command not found
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git pull
+Already up to date.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ mkdir main_folder
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ cd main_folder
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap/main_folder MINGW64 $ echo "nd file 1" > main_txt_1.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap/main_folder MINGW64 $ echo "nd file 2" > main_txt_2.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap/main_folder MINGW64 $ echo "nd file 3" > main_txt_3.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap/main_folder MINGW64 $ cd ..
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git commit -m "thêm main_folder vào main_txt_1.txt, main_txt_2.txt, main_txt_3.txt"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        main_folder/
+
+nothing added to commit but untracked files present (use "git add" to track)
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git push origin main
+Everything up-to-date
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout branch_1
+Switched to branch 'branch_1'
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ notepad text_branch_1.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', CRLF will be replaced by LF the next time Git touches it
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git commit -m "cap nhat text_branch_1.txt voi noi dung moi branch_5"
+[branch_5 e449a67] cap nhat text_branch_1.txt voi noi dung moi branch_5
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 697 bytes | 348.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap/pull/new/branch_5
+remote:
+To https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git
+ * [new branch]      branch_5 -> branch_5
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git branch -d branch_5
+error: cannot delete branch 'branch_5' used by worktree at 'C:/Users/ADMIN/Documents/27_Do_Thi_Thuy_Linh_bai_tap'
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $  git branch -d branch_5
+error: the branch 'branch_5' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_5'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git branch -D branch_5
+Deleted branch branch_5 (was e449a67).
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git branch
+  branch_1
+  branch_2
+  branch_3
+* main
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git add text_branch_4.txt
+fatal: pathspec 'text_branch_4.txt' did not match any files
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ ls
+README.md  main_folder/
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout -b branch_4
+fatal: a branch named 'branch_4' already exists
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ notepad text_branch_4.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git add text_branch_4.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git commit -m "thêm text_branch_4.txt vào branch_4"
+[main 4590ef5] thêm text_branch_4.txt vào branch_4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git push origin main
+To https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git push origin branch_4
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git
+ * [new branch]      branch_4 -> branch_4
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ ls
+README.md  main_folder/  text_branch_4.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git pull origin branch_4
+From https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap
+ * branch            branch_4   -> FETCH_HEAD
+Already up to date.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git push origin main
+To https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout main
+Already on 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git branch -D branch_2
+Deleted branch branch_2 (was 2e0ef69).
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git push origin --delete branch_2
+To https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git
+ - [deleted]         branch_2
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $  git branch -D branch_3
+Deleted branch branch_3 (was 7103e3c).
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $  git push origin --delete branch_3
+To https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git
+ - [deleted]         branch_3
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git branch -D branch_4
+Deleted branch branch_4 (was d9b92fd).
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $  git push origin --delete branch_4
+fatal: unable to access 'https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git/': Could not resolve host: github.com
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git push origin --delete branch_4
+To https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git
+ - [deleted]         branch_4
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git checkout branch_1
+Switched to branch 'branch_1'
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git pull origin main
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 12 (delta 4), reused 3 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (12/12), 4.15 KiB | 86.00 KiB/s, done.
+From https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap
+ * branch            main       -> FETCH_HEAD
+   d9b92fd..d7b0730  main       -> origin/main
+Updating 1770502..d7b0730
+Fast-forward
+ text_branch_1.txt | 10 +++++++++-
+ text_branch_2.txt |  1 +
+ text_branch_3.txt |  1 +
+ 3 files changed, 11 insertions(+), 1 deletion(-)
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git push origin branch_1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Dothithuylinh-2007/27_Do_Thi_Thuy_Linh_bai_tap.git
+   ca49b4e..d7b0730  branch_1 -> branch_1
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git branch
+* branch_1
+  main
+LinhThuy@DESKTOP-OB4KT1G ~/Documents/27_Do_Thi_Thuy_Linh_bai_tap MINGW64 $ git branch -r
+  origin/HEAD -> origin/main
+  origin/branch_1
+  origin/branch_5
+  origin/main
