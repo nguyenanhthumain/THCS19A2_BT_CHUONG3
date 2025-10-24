@@ -1,0 +1,846 @@
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap (main)
+$ git clone https://github.com/dnnhat25174600113-tech/35_Do_Ngoc_Nhat_bai_tap.git
+Cloning into '35_Do_Ngoc_Nhat_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap (main)
+$ cd 35_Do_Ngoc_Nhat_bai_tap
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ ls
+README.md
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ cat README.md
+# Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at
+
+# lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut
+
+# vel placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In
+
+# pharetra viverra sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum
+
+# tincidunt turpis. In sit amet tortor gravida, ultricies ante vitae, varius tortor.
+
+# Aliquam finibus porta nulla sed gravida. Aliquam ultricies dapibus ante eget
+
+# molestie. In hac habitasse platea dictumst. Aliquam aliquam enim at massa
+
+# pharetra, et vestibulum sapien consequat. Donec accumsan quis metus at
+
+# pellentesque. Morbi quis felis placerat, interdum justo a, aliquam risus.
+
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ cat README.md
+###### Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at
+
+###### lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut
+
+###### vel placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In
+
+###### pharetra viverra sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum
+
+###### tincidunt turpis. In sit amet tortor gravida, ultricies ante vitae, varius tortor.
+
+###### Aliquam finibus porta nulla sed gravida. Aliquam ultricies dapibus ante eget
+
+###### molestie. In hac habitasse platea dictumst. Aliquam aliquam enim at massa
+
+###### pharetra, et vestibulum sapien consequat. Donec accumsan quis metus at
+
+###### pellentesque. Morbi quis felis placerat, interdum justo a, aliquam risus.
+
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git add .
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git commit -m "bai tap chuong 3"
+[main 46ce7ed] bai tap chuong 3
+ 1 file changed, 18 insertions(+), 1 deletion(-)
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git log
+commit 46ce7ed0f72947e2b5cca45d3762186c1ef5bd2f (HEAD -> main)
+Author: dnnhat <donhat.24.2.2007@gmail.com>
+Date:   Sat Oct 18 16:01:50 2025 +0700
+
+    bai tap chuong 3
+
+commit 556a2ced06d7a1967d4f891e76b3cd3d37e7a480 (origin/main, origin/HEAD)
+Author: dnnhat25174600113-tech <dnnhat.25174600113@sv.uneti.edu.vn>
+Date:   Sat Oct 18 15:48:54 2025 +0700
+
+    Initial commit
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git push
+remote: Permission to dnnhat25174600113-tech/35_Do_Ngoc_Nhat_bai_tap.git denied to Bffnhat24.
+fatal: unable to access 'https://github.com/dnnhat25174600113-tech/35_Do_Ngoc_Nhat_bai_tap.git/': The requested URL returned error: 403
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git push origin
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/dnnhat25174600113-tech/35_Do_Ngoc_Nhat_bai_tap.git/'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 14 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 635 bytes | 635.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/dnnhat25174600113-tech/35_Do_Ngoc_Nhat_bai_tap.git
+   556a2ce..46ce7ed  main -> main
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git branch branch_1
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ touch text_branch_1.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ ls
+README.md  text_branch_1.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." >> text_branch_1
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ cat text_branch_1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git branch branch_2
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git checkout branch_2
+Switched to branch 'branch_2'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_2)
+$ touch text_branch_2.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_2)
+$ ls
+README.md  text_branch_1  text_branch_1.txt  text_branch_2.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ ls
+README.md  text_branch_1  text_branch_1.txt  text_branch_2.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ ls
+README.md  text_branch_1  text_branch_1.txt  text_branch_2.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ rm text_branch_1
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ ls
+README.md  text_branch_1.txt  text_branch_2.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ ls
+README.md  text_branch_1.txt  text_branch_2.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git checkout
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git checkout branch_2
+Switched to branch 'branch_2'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_2)
+$ git branch -l
+  branch_1
+* branch_2
+  main
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_2)
+$ echo Praesent ullamcorper orci eu erat placerat sodales. >> text_branch_2.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_2)
+$ ls
+README.md  text_branch_1.txt  text_branch_2.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_2)
+$ cat text_branch_1
+cat: text_branch_1: No such file or directory
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_2)
+$ cat text_branch_1.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_2)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ echo Lorem ipsum dolor sit amet, consectetur adipiscing elit. >> text_branch_1.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ cat text_branch_1.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git branch
+  branch_1
+  branch_2
+* main
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git branch
+* branch_1
+  branch_2
+  main
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_3)
+$ touch text_branch_3.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_3)
+$ echo Integer sit amet nisi aliquam, tempor libero quis, cursus erat. >> text_branch_3.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_3)
+$ cat text_branch_3.txt
+Integer sit amet nisi aliquam, tempor libero quis, cursus erat.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_3)
+$ ls
+README.md  text_branch_1.txt  text_branch_2.txt  text_branch_3.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_4)
+$ ls
+README.md  text_branch_1.txt  text_branch_2.txt  text_branch_3.txt  text_branch_4.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_4)
+$ cat text_branch_4.txt
+Cras ac mi nec nisi porta ultrices sed non ante.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ ls
+README.md  text_branch_1.txt  text_branch_2.txt  text_branch_3.txt  text_branch_4.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git init .
+Reinitialized existing Git repository in C:/Users/Admin/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap/.git/
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        text_branch_1.txt
+        text_branch_2.txt
+        text_branch_3.txt
+        text_branch_4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git add .
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git commit -m "branch"
+[main 1d7c596] branch
+ 4 files changed, 4 insertions(+)
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 14 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 598 bytes | 598.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/dnnhat25174600113-tech/35_Do_Ngoc_Nhat_bai_tap.git
+   46ce7ed..1d7c596  main -> main
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git status
+On branch branch_1
+nothing to commit, working tree clean
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git init .
+Reinitialized existing Git repository in C:/Users/Admin/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap/.git/
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git status
+On branch branch_1
+nothing to commit, working tree clean
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git log
+commit 46ce7ed0f72947e2b5cca45d3762186c1ef5bd2f (HEAD -> branch_1, branch_4, branch_3, branch_2)
+Author: dnnhat <donhat.24.2.2007@gmail.com>
+Date:   Sat Oct 18 16:01:50 2025 +0700
+
+    bai tap chuong 3
+
+commit 556a2ced06d7a1967d4f891e76b3cd3d37e7a480
+Author: dnnhat25174600113-tech <dnnhat.25174600113@sv.uneti.edu.vn>
+Date:   Sat Oct 18 15:48:54 2025 +0700
+
+    Initial commit
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ ls
+README.md
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git checkout branch_2
+Switched to branch 'branch_2'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_2)
+$ ls
+README.md
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ ls
+README.md  text_branch_1.txt  text_branch_2.txt  text_branch_3.txt  text_branch_4.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ ls
+README.md
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> branch_1
+
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git branch
+* branch_1
+  branch_2
+  branch_3
+  branch_4
+  main
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git pull
+Already up to date.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git branch -d branch_4
+Deleted branch branch_4 (was 46ce7ed).
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+* main
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ ls
+README.md
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ ls
+README.md  text_branch_1.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git checkout main
+error: The following untracked working tree files would be overwritten by checkout:
+        text_branch_1.txt
+Please move or remove them before you switch branches.
+Aborting
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git checkout main
+error: The following untracked working tree files would be overwritten by checkout:
+        text_branch_1.txt
+Please move or remove them before you switch branches.
+Aborting
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> branch_1
+
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git push
+fatal: The current branch branch_1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branch_1
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git push --set-upstream origin branch_1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/dnnhat25174600113-tech/35_Do_Ngoc_Nhat_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/dnnhat25174600113-tech/35_Do_Ngoc_Nhat_bai_tap.git
+ * [new branch]      branch_1 -> branch_1
+branch 'branch_1' set up to track 'origin/branch_1'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git checkout branch_2
+Switched to branch 'branch_2'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_2)
+$ ls
+README.md  text_branch_1.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_2)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+Your branch is up to date with 'origin/branch_1'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ ls
+README.md  text_branch_1.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ cat text_branch_1.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git checkout main
+error: The following untracked working tree files would be overwritten by checkout:
+        text_branch_1.txt
+Please move or remove them before you switch branches.
+Aborting
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ rm text_branch_1.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git pull
+Already up to date.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ mkdir main_folder
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ touch main_txt_1.txt main_txt_2.txt main_txt_3.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ ls
+README.md     main_txt_1.txt  main_txt_3.txt     text_branch_2.txt  text_branch_4.txt
+main_folder/  main_txt_2.txt  text_branch_1.txt  text_branch_3.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        main_txt_1.txt
+        main_txt_2.txt
+        main_txt_3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git add .
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git commit -m
+error: switch `m' requires a value
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git commit -m ""
+Aborting commit due to empty commit message.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git commit -m "main"
+[main 2ae6f3b] main
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 main_txt_1.txt
+ create mode 100644 main_txt_2.txt
+ create mode 100644 main_txt_3.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 14 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 390 bytes | 390.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/dnnhat25174600113-tech/35_Do_Ngoc_Nhat_bai_tap.git
+   1d7c596..2ae6f3b  main -> main
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+Your branch is up to date with 'origin/branch_1'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git pull
+Already up to date.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ ls
+README.md  main_folder/
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git pull main branch_1
+fatal: 'main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ rm text_branch_1
+rm: cannot remove 'text_branch_1': No such file or directory
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ rm text_branch_1.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ ls
+README.md     main_txt_1.txt  main_txt_3.txt     text_branch_3.txt
+main_folder/  main_txt_2.txt  text_branch_2.txt  text_branch_4.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+Your branch is up to date with 'origin/branch_1'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ ls
+README.md  main_folder/
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ ls
+README.md  main_folder/  text_branch_1.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git checkout -b branch_5 branch_1
+Switched to a new branch 'branch_5'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_5)
+$ ls
+README.md  main_folder/  text_branch_1.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_5)
+$ cat text_branch_1.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_5)
+$ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_5)
+$ git commit -m "Chinh sua tep tin text_branch_1.txt"
+[branch_5 aa7eec5] Chinh sua tep tin text_branch_1.txt
+ 1 file changed, 9 insertions(+)
+ create mode 100644 text_branch_1.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_5)
+$ git push --set-upstream origin branch_5
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 14 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 688 bytes | 688.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/dnnhat25174600113-tech/35_Do_Ngoc_Nhat_bai_tap/pull/new/branch_5
+remote:
+To https://github.com/dnnhat25174600113-tech/35_Do_Ngoc_Nhat_bai_tap.git
+ * [new branch]      branch_5 -> branch_5
+branch 'branch_5' set up to track 'origin/branch_5'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_5)
+$ git add .
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_5)
+$ git commit -m "Da giai quyet conflict"
+On branch branch_5
+Your branch is up to date with 'origin/branch_5'.
+
+nothing to commit, working tree clean
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_5)
+$ ls
+README.md  main_folder/  text_branch_1.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_5)
+$ git checkout -d branch_2
+HEAD is now at 46ce7ed bai tap chuong 3
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap ((46ce7ed...))
+$ git checkout branch_2
+Switched to branch 'branch_2'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_2)
+$ git branch -d branch_2
+error: cannot delete branch 'branch_2' used by worktree at 'C:/Users/Admin/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap'
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_2)
+$ git checkout branch_5
+Switched to branch 'branch_5'
+Your branch is up to date with 'origin/branch_5'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_5)
+$ git branch -d branch_2
+Deleted branch branch_2 (was 46ce7ed).
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_5)
+$ git branch -d branch_3
+Deleted branch branch_3 (was 46ce7ed).
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_5)
+$ git branch -d branch_4
+error: branch 'branch_4' not found
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_5)
+$ git branch
+  branch_1
+* branch_5
+  main
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git branch -d branch_5
+warning: deleting branch 'branch_5' that has been merged to
+         'refs/remotes/origin/branch_5', but not yet merged to HEAD
+Deleted branch branch_5 (was aa7eec5).
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git branch
+  branch_1
+* main
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+Your branch is up to date with 'origin/branch_1'.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git merge main
+Updating 46ce7ed..2ae6f3b
+Fast-forward
+ main_txt_1.txt    | 0
+ main_txt_2.txt    | 0
+ main_txt_3.txt    | 0
+ text_branch_1.txt | 1 +
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ text_branch_4.txt | 1 +
+ 7 files changed, 4 insertions(+)
+ create mode 100644 main_txt_1.txt
+ create mode 100644 main_txt_2.txt
+ create mode 100644 main_txt_3.txt
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 14 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 807 bytes | 807.00 KiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/dnnhat25174600113-tech/35_Do_Ngoc_Nhat_bai_tap.git
+   46ce7ed..2ae6f3b  branch_1 -> branch_1
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ ls
+README.md     main_txt_1.txt  main_txt_3.txt     text_branch_2.txt  text_branch_4.txt
+main_folder/  main_txt_2.txt  text_branch_1.txt  text_branch_3.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 1.81 KiB | 463.00 KiB/s, done.
+From https://github.com/dnnhat25174600113-tech/35_Do_Ngoc_Nhat_bai_tap
+   2ae6f3b..daac2e6  main       -> origin/main
+Already up to date.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ ls
+README.md     main_txt_1.txt  main_txt_3.txt     text_branch_2.txt  text_branch_4.txt
+main_folder/  main_txt_2.txt  text_branch_1.txt  text_branch_3.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ cat text_branch_1.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 3 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git status
+On branch main
+Your branch is behind 'origin/main' by 3 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git pull
+Updating 2ae6f3b..daac2e6
+Fast-forward
+ text_branch_1.txt | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ git branch
+  branch_1
+* main
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ touch 35_Do_Ngoc_Nhat_doan_ma.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$ ls
+35_Do_Ngoc_Nhat_doan_ma.txt  main_folder/    main_txt_2.txt  text_branch_1.txt  text_branch_3.txt
+README.md                    main_txt_1.txt  main_txt_3.txt  text_branch_2.txt  text_branch_4.txt
+
+Admin@DESKTOP-T41HCSH MINGW64 ~/thcs19a2/Baitap/35_Do_Ngoc_Nhat_bai_tap (main)
+$
