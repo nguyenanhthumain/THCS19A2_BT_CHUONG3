@@ -1,0 +1,560 @@
+rm: cannot remove '/etc/post-install/03-mtab.post': Permission denied
+rm: cannot remove '/etc/post-install/06-windows-files.post': Permission
+rm: cannot remove '/etc/post-install/99-post-install-cleanup.post': Permenied
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan
+$ git config --global user.name "Nguyen Thi Xuan"
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan
+$ git config --global user.email "ntxuan2517400072@sv.uneti.edu.vn"
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan
+$ git clone https://github.com/ntxuan25174600072-cute/52_Nguyen_Thi_Xuan.git
+Cloning into '52_Nguyen_Thi_Xuan_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan
+$ cd 52_Nguyen_Thi_Xuan_bai_tap
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git add README.md
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git commit -m
+error: switch `m' requires a value
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git commit -m "cap nhat noi dung README.md"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git push origin main
+
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text1.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git add text_branch_1.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git commit -m "them file text_branch_1.txt"
+[branch_1 d679803] them file text_branch_1.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git push origin branch_1
+
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_bran
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_2)
+$ git add text_branch_2.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_2)
+$ git commit -m "them file text_branch_2.txt"
+[branch_2 2062bfa] them file text_branch_2.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_2)
+$ git push origin branch_2
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/ntxuan25174600072-c
+guyen_Thi_Xuan_bai_tap.git/'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat."branch_3.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_3)
+$ git add text_brand_3.txt
+fatal: pathspec 'text_brand_3.txt' did not match any files
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_3)
+$ git add text_branch_3.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_3)
+$ git commit -m "them file text_branch_3.txt"
+[branch_3 5d983b8] them file text_branch_3.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_3)
+$ git push origin branch_3
+
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_4)
+$ git add text_branch_4.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_4)
+$ git commit -m "them file text_branch_4.txt"
+[branch_4 c4005f4] them file text_branch_4.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_4)
+$ git push origin branch_4
+
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_4)
+$ git branch -d branch_4
+error: cannot delete branch 'branch_4' used by worktree at 'D:/52_Nguyen
+n/52_Nguyen_Thi_Xuan_bai_tap'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_4)
+$ git check main
+git: 'check' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_4)
+$ git branch -d branch_4
+error: cannot delete branch 'branch_4' used by worktree at 'D:/52_Nguyen
+n/52_Nguyen_Thi_Xuan_bai_tap'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git branch -d branch_4
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4
+hint: Disable this message with "git config set advice.forceDeleteBranch
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git branch -D branch_4
+Deleted branch branch_4 (was c4005f4).
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git branch --list
+  branch_1
+  branch_2
+  branch_3
+* main
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git push origin --delete branch_4
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/ntxuan25174600072-c
+guyen_Thi_Xuan_bai_tap.git/'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git push origin --delete branch_4
+error: unable to delete 'branch_4': remote ref does not exist
+error: failed to push some refs to 'https://github.com/ntxuan25174600072
+_Nguyen_Thi_Xuan_bai_tap.git'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git push origin --delete branch_4
+error: unable to delete 'branch_4': remote ref does not exist
+error: failed to push some refs to 'https://github.com/ntxuan25174600072
+_Nguyen_Thi_Xuan_bai_tap.git'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git pull origin main
+From https://github.com/ntxuan25174600072-cute/52_Nguyen_Thi_Xuan_bai_ta
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ mkdir main_folder
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ cd main_folder
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bain_folder (main)
+$ echo "file 1 noi dung" main_txt_1.txt
+file 1 noi dung main_txt_1.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bain_folder (main)
+$ echo "file 2 noi dung" main_txt_2.txt
+file 2 noi dung main_txt_2.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bain_folder (main)
+$ echo "file 3 noi dung" > main_txt_3.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bain_folder (main)
+$ echo "file 1 noi dung" > main_txt_1.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bain_folder (main)
+$ echo "file 2 noi dung" > main_txt_2.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bain_folder (main)
+$ cd ..
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git add .
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git commit -m "them thu muc main_folder va cac file txt"
+[main 4a9ca4c] them thu muc main_folder va cac file txt
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git push origin main
+
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git pull origin main
+From https://github.com/ntxuan25174600072-cute/52_Nguyen_Thi_Xuan_bai_ta
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git push origin branch_1
+
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git checkout branch_2
+Switched to branch 'branch_2'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_2)
+$ git pull origin main
+From https://github.com/ntxuan25174600072-cute/52_Nguyen_Thi_Xuan_bai_ta
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_2)
+$ git push origin brach_2
+error: src refspec brach_2 does not match any
+error: failed to push some refs to 'https://github.com/ntxuan25174600072
+_Nguyen_Thi_Xuan_bai_tap.git'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_2)
+$ git push origin branch_2
+
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_2)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_5)
+$ git add text_branch_1.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_5)
+$ git commit -m "cap nhat noi dung text_branch_1.txt"
+On branch branch_5
+nothing to commit, working tree clean
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_5)
+$ git push origin branch_5
+
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_5)
+$ git commit -m "Etiam malesuada felis nulla, ac porta dui sollicitudin uris hendrerit non
+metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin m
+accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo er
+Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et ae,
+porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nis
+aptent taciti sociosqu ad litora torquent per conubia nostra, per incept
+himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod q
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula aucrra.
+Phasellus dignissim mollis leo, vitae tristique enim. text_branch_1.txt"
+On branch branch_5
+nothing to commit, working tree clean
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_5)
+$ git push origin branch_5
+
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_5)
+$ git checkout branch_5
+Already on 'branch_5'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_5)
+$ echo "them noi dung test cho branch_5" >> text_branch_1.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_5)
+$ git add .
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_5)
+$ git commit -m "thay doi noi dung de test pull request"
+[branch_5 bf4905a] thay doi noi dung de test pull request
+ 1 file changed, 1 insertion(+)
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_5)
+$ git push origin branch_5
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 684 bytes | 684.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/ntxuan25174600072-cute/52_Nguyen_Thi_Xua
+p/pull/new/branch_5
+remote:
+To https://github.com/ntxuan25174600072-cute/52_Nguyen_Thi_Xuan_bai_tap.
+ * [new branch]      branch_5 -> branch_5
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_5)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." >> tex_1.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git add .
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git commit -m "them moi dung goc cho branch_1"
+[branch_1 620d631] them moi dung goc cho branch_1
+ 1 file changed, 1 insertion(+)
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git push origin branch_1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 376 bytes | 376.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/ntxuan25174600072-cute/52_Nguyen_Thi_Xua
+p/pull/new/branch_1
+remote:
+To https://github.com/ntxuan25174600072-cute/52_Nguyen_Thi_Xuan_bai_tap.
+ * [new branch]      branch_1 -> branch_1
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git checkout branch_1
+Already on 'branch_1'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git pull origin branch_1
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 1.93 KiB | 180.00 KiB/s, done.
+From https://github.com/ntxuan25174600072-cute/52_Nguyen_Thi_Xuan_bai_ta
+ * branch            branch_1   -> FETCH_HEAD
+   620d631..1f932cf  branch_1   -> origin/branch_1
+Updating 620d631..1f932cf
+Fast-forward
+ text_branch_1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git merge branch_5
+Already up to date.
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git branch -d branch_5
+Deleted branch branch_5 (was bf4905a).
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git push origin --delete branch_5
+To https://github.com/ntxuan25174600072-cute/52_Nguyen_Thi_Xuan_bai_tap.
+ - [deleted]         branch_5
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git branch -a
+* branch_1
+  branch_2
+  branch_3
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/branch_1
+  remotes/origin/main
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git branch -d branch_5
+error: branch 'branch_5' not found
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git push origin --deltete branch_5
+error: unknown option `deltete'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --[no-]verbose    be more verbose
+    -q, --[no-]quiet      be more quiet
+    --[no-]repo <repository>
+                          repository
+    --[no-]all            push all branches
+    --[no-]branches       alias of --all
+    --[no-]mirror         mirror all refs
+    -d, --[no-]delete     delete refs
+    --[no-]tags           push tags (can't be used with --all or --branc
+-mirror)
+    -n, --[no-]dry-run    dry run
+    --[no-]porcelain      machine-readable output
+    -f, --[no-]force      force updates
+    --[no-]force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --[no-]force-if-includes
+                          require remote updates to be integrated locall
+    --[no-]recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --[no-]thin           use thin pack
+    --[no-]receive-pack <receive-pack>
+                          receive pack program
+    --[no-]exec <receive-pack>
+                          receive pack program
+    -u, --[no-]set-upstream
+                          set upstream for git pull/status
+    --[no-]progress       force progress reporting
+    --[no-]prune          prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --verify              opposite of --no-verify
+    --[no-]follow-tags    push missing but relevant tags
+    --[no-]signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --[no-]atomic         request atomic transaction on remote side
+    -o, --[no-]push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git push origin --delete branch_5
+error: unable to delete 'branch_5': remote ref does not exist
+error: failed to push some refs to 'https://github.com/ntxuan25174600072
+_Nguyen_Thi_Xuan_bai_tap.git'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git branch -d branch_2
+error: the branch 'branch_2' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_2
+hint: Disable this message with "git config set advice.forceDeleteBranch
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git branch -D branch_2
+Deleted branch branch_2 (was 2062bfa).
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git branch -D branch_3
+Deleted branch branch_3 (was 5d983b8).
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git branch -D branch_4
+error: branch 'branch_4' not found
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git push origin --delete branch_2
+error: unable to delete 'branch_2': remote ref does not exist
+error: failed to push some refs to 'https://github.com/ntxuan25174600072
+_Nguyen_Thi_Xuan_bai_tap.git'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git branch -a
+* branch_1
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/branch_1
+  remotes/origin/main
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git checkout branch_1
+Already on 'branch_1'
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git pull origin main
+From https://github.com/ntxuan25174600072-cute/52_Nguyen_Thi_Xuan_bai_ta
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git push origin branch_1
+Everything up-to-date
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bbranch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ echo "# cac lenh thuc hien tu bai 1 den bai 9" > 52_Nguyen_Thi_Xuan_dot
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git add 52_Nguyen_Thi_Xuan_doan_ma.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git commit -m "them file chua toan bo doan ma tu bai 1 den bai 9"
+[main 68ff45c] them file chua toan bo doan ma tu bai 1 den bai 9
+ 1 file changed, 1 insertion(+)
+ create mode 100644 52_Nguyen_Thi_Xuan_doan_ma.txt
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ git push origin main
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (9/9), 866 bytes | 66.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ntxuan25174600072-cute/52_Nguyen_Thi_Xuan_bai_tap.
+   0a4868a..68ff45c  main -> main
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$ ^C
+
+Admin@DESKTOP-58RAHJO MINGW64 /d/52_Nguyen_Thi_Xuan/52_Nguyen_Thi_Xuan_bmain)
+$
